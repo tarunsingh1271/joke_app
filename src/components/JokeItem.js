@@ -12,7 +12,9 @@ export class JokeItem extends Component {
           <div className="card-body">
             <h5 className="card-title">{setup}</h5>
             <p className="card-text">{punchline}</p>
-            <a href="/" className="btn btn-primary"> Show More </a>
+            <button className="btn btn-primary me-md-4">Like </button>
+            <button className="btn btn-primary">Dislike </button>
+              
           </div>
           <div className="card-footer text-body-secondary">Type: {type},  ID: {id} </div>
         </div>
